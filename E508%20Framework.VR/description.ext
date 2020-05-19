@@ -1,20 +1,15 @@
-////////////////////////////
-////AUTHOR & DESCRIPTION////
-////////////////////////////
+// MISSION DETAILS
 
-	author = "****AUTHOR NAME****"; // Author
-	onLoadName = "****MISSION NAME****"; // Mission name (temporary solution; actual name set in editor will be used later in the alpha)
-	onLoadMission = "****ONE LINE DESCRIPTION****"; // Description
-	loadScreen = "loadScreen.paa"; // Loading Image
-	class Header
-		{
-			gameType = Coop; // MP mission type
-		};
+author = "****AUTHOR NAME****";
+onLoadName = "****MISSION NAME****";
+onLoadMission = "****ONE LINE DESCRIPTION****";
+loadScreen = "loadScreen.paa";
+class Header
+{
+	gameType = Coop;
+};
 
-////////////////////////////////////
-////RESPAWN & SPECTATOR SETTINGS////
-////////////////////////////////////
+// SPECTATOR
 
-	respawn = 3; // Players respawn at base
-	respawnTemplates[] = {"ace_spectator"}; // Enables the spectator template for all
-
+respawn = 0; // No respawning.
+respawnTemplates[] = {"ace_spectator"};
