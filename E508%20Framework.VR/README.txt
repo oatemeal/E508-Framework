@@ -11,3 +11,5 @@ This will then give you all of the default AI Skill, Briefing Template and the A
 
 When editing loadouts for soldiers try to keep the same number of medical/ammo count for balance.
 Once your mission is complete edit the briefing file and add a picture to replace the loadscreen.paa file, message me for help if needed in this bit.
+
+I would recomend you edit the loadout of the existing units through arsenal instead of plopping in units from the modded factions as aresenal does not seem to work on the modded units.
