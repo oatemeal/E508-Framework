@@ -25,8 +25,3 @@
 		
 //BRIEFING//
 	[] execVM "briefing.sqf";
-
-// ====================================================================================
-	
-//ADDON SETTINGS//
-	[] execVM "addonsettings.sqf";
